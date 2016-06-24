@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+.one{
+height:10px;
+width:10px;
+background-color:blue;
+margin-top:10px;
+margin-left:10px;
+}
+</style>
+</head><body>
+<div class="one"></div>
+<div class="one">hjhjkkjj</div>
+<div class="one"></div>
+<div class="one"></div>
+<script>
+var divs = document.getElementsByClassName("one");
+console.log(divs[1]);
+divs[1].innerHTML="hello";
+for( var i=0; i<4; i++){
+divs[i].style.width=(i+1)*10;
+}
+
+
+
+
+
+
+</script>
+</body>
+</html>
+

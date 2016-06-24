@@ -1,0 +1,22 @@
+<html>
+<head>
+
+</head><body>
+
+<script>
+var num=prompt("enter no. to find factorial less than 170");
+ 
+var fact = function(n) {
+    if(n == 0) {
+        return 1;
+    } else {
+        return n * fact(n - 1);
+    }
+}
+ 
+document.write("factorrial of "+ num + " is ="+fact(num));
+
+</script>
+</body>
+</html>
+
